@@ -1,0 +1,52 @@
+<div class="header" [ngClass] = "{'header--active':IsActive}">
+    <div class="container">
+      <section class="header__image">
+       <div class="row">
+           <div class="col-lg-12 center">
+               <div class="header__image__container">
+                <img clas="img-fluid" src="https://picsum.photos/300/300" alt="">
+               </div>
+             <h2 class="text-center">Dvora Parasha</h2>
+             <h4 class="text-center">Senior .Net Developer</h4>
+            
+           </div>
+       </div>
+       </section>
+       <section class="header__links">
+         <div class="d-flex text-center">
+<a target="_blank" href="https://www.linkedin.com/in/dvora-parasha/">
+  <i class="fab fa-linkedin"></i>
+</a>
+<a target="_blank" href="https://www.linkedin.com/in/dvora-parasha/">
+  <i class="fab fa-github-square"></i>
+</a>
+         </div>
+    </section>
+    <section class="header__nav">
+      <nav>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#About">About</a>
+        </li>
+        <li>
+          <a href="#Resume">Resume</a>
+        </li>
+        <li>
+          <a href="#Portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    </section>
+</div>
+</div>
+<div class="menu-btn-container">
+  <button mat-fab (click)="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </button>
+</div>
